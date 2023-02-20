@@ -1,0 +1,24 @@
+.app{
+height:100vh;
+}
+
+.app_body{
+
+  display:flex;
+  height:100vh;
+}
+.auth_container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
