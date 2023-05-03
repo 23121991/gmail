@@ -46,7 +46,7 @@ export default function Signup() {
        }else 
     {
       axios
-        .post("http://localhost:5000/api/signup", {formDetailsCopy})
+        .post("https://gmailback.onrender.com/api/signup", {formDetailsCopy})
         .then((response) => console.log(response))
         .catch((e) => console.log(e));
 
