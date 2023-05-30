@@ -65,6 +65,7 @@ const Signin = (props) => {
           margin='normal' 
           type='password' 
           variant='outlined' 
+          secureTextEntry={true}
           placeholder='password'/>
 
          <Button type ="submit"

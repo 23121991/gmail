@@ -88,7 +88,7 @@ export default function Signup() {
               margin='normal'
               type='text'
               variant='outlined'
-              placeholder='username' 
+              placeholder='username'
               onChange={handleInput}/>
 
             <TextField
@@ -105,7 +105,7 @@ export default function Signup() {
               onChange={handleInput}
               value={formDetails["password"] || "" }
               margin='normal'
-              type='text'
+              type='password'
               variant='outlined'
               placeholder='password' />
 
